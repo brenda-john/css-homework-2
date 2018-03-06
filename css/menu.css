@@ -43,7 +43,7 @@
     margin-right: 0;
   }
 
-  .features-menu {
+  .dropdown:hover .features-menu {
     display: flex;
     flex-direction: column;
     background: #B2D6FF;
@@ -82,3 +82,6 @@
     z-index: 1;
   }
   
+  .features-menu {                    /* Add this as a new rule */
+    display: none;
+  }
